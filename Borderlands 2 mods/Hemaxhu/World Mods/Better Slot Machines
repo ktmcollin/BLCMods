@@ -27,27 +27,27 @@
 				<category name="Vanilla Game">
 					<category name="Cost Increase">
 						<hotfix name="RollCost" level="None">
-							<code profiles="default">set GD_Economy.BaseCost.Att_BaseCost_SlotMachine_PullCost:ConstantAttributeValueResolver_0 ConstantValue 85.000000</code>
+							<code profiles="default">set GD_Economy.BaseCost.Att_BaseCost_SlotMachine_PullCost:ConstantAttributeValueResolver_0 ConstantValue 0.000000</code>
 						</hotfix>
 					</category>
 					<category name="Blue">
 						<hotfix name="SlotMachines" level="None">
-							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[2] 14.500000</code>
+							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[2] 0.000000</code>
 						</hotfix>
 					</category>
 					<category name="Purple">
 						<hotfix name="SlotMachines" level="None">
-							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[3] 3.500000</code>
+							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[3] 0.000000</code>
 						</hotfix>
 					</category>
 					<category name="Legendary">
 						<hotfix name="SlotMachines" level="None">
-							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[4] 2.250000</code>
+							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[4] 50.00000</code>
 						</hotfix>
 					</category>
 					<category name="Eridium Jackpot">
 						<hotfix name="SlotMachines" level="None">
-							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[7] 0.550000</code>
+							<code profiles="default">set gd_slotmachine.SlotMachine:BehaviorProviderDefinition_0.Behavior_RandomBranch_34 Conditions[7] 50.00000</code>
 						</hotfix>
 					</category>
 					<category name="Replacers">
